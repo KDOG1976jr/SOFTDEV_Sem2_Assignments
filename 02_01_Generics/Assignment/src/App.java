@@ -1,5 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Property<Integer> integerProperty = new Property<>(3);
+        Property<Boolean> booleanProperty = new Property<>(true);
     }
 }
